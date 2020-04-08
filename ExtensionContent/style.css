@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+body {
+	font: -webkit-small-control;
+}
+
+div {
+	float: left;
+	padding-bottom: 0.5em;
+}
+
+.control {
+	clear: both;
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./ext.js"></script>
+<script src="./lib/CSInterface-4.0.0.js"></script>
+
+<link id="ppstyle" rel="stylesheet" type="text/css" href="./style.css">
+<title>Tessellation</title>
+</head>
+
+<body onLoad="onLoaded()">
+	<div id="content">
+		<div class="control">
+			<input type="radio" id="triangle" name="polygon" value="triangle" checked>
+  			<label for="triangle">Triangle</label>
+		</div>
+		<div class="control">
+			<input type="radio" id="square" name="polygon" value="square">
+  			<label for="square">Square</label>
+		</div>
+		<div class="control">
+			<input type="radio" id="hexagon" name="polygon" value="hexagon">
+  			<label for="hexagon">Hexagon</label>
+		</div>
+		<div class="control">
+			<input type="radio" id="circle" name="polygon" value="circle">
+  			<label for="circle">Circle</label>
+		</div>
+		<div class="control">
+			<input id="rows" type="text" value="50" />
+			<label for="rows">Rows</label>
+		</div>
+		<div class="control">
+			<input id="columns" type="text" value="50" />
+			<label for="columns">Columns</label>
+		</div>
+		<div class="control">
+			<input id="size" type="text" value="10" />
+			<label for="size">Size</label>
+		</div>
+		<div class="control">
+			<input type="checkbox" id="orientation" name="orientation" value="horizontal">
+			<label for="orientation">Orientation</label><br>
+		</div>
+		<div class="control">
+			<button class="default" id="btn_ILST" onClick="onClickButton('ILST')">Create</button>
+		</div>
+	</div>
+</body>
+
+</html>
